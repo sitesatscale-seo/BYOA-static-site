@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="/images/logo.svg" alt="Logo">
+                <span>My<br>Website</span>
+            </div>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/blog/index.html">Blog</a></li>
+                <li><a href="/pages/about.html">About</a></li>
+                <li><a href="/pages/faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main> <div class="container">
+        <article class="blog-post">
+            <header class="blog-header">
+                <h1>Hello World</h1>
+                <time datetime="Thu Jan 11 2024 18:00:00 GMT-0600 (Central Standard Time)">January 11, 2024</time>
+            </header>
+            <div class="blog-content">
+                <h1>Welcome to My Blog</h1>
+<p>This is my first blog post using the new static site generator. The system supports:</p>
+<ul>
+<li>Markdown formatting</li>
+<li>Front matter for metadata</li>
+<li>Automatic date formatting</li>
+<li>Custom blog post template</li>
+</ul>
+<h2>How to Create a Blog Post</h2>
+<ol>
+<li>Create a new <code>.md</code> file in the <code>content/blog</code> directory</li>
+<li>Add front matter at the top with <code>title</code> and <code>date</code></li>
+<li>Write your content in Markdown</li>
+<li>Run the build script to generate the HTML</li>
+</ol>
+<pre><code class="language-markdown">---
+title: Your Post Title
+date: YYYY-MM-DD
+---
+
+# Your Content Here
+</code></pre>
+<p>That&#39;s all you need to get started! </p>
+
+            </div>
+        </article>
+    </div>    </main>
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+    </footer>
+</body>
+</html> 
