@@ -417,3 +417,92 @@ h2 {
         display: none;
     }
 } 
+
+/* Events Page Styles */
+.events-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.events-container h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.event-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    transition: transform 0.2s ease;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+}
+
+.event-date {
+    background: #4a90e2;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 100px;
+}
+
+.event-date .month {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.event-date .day {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.event-details {
+    padding: 1.5rem;
+    flex-grow: 1;
+}
+
+.event-details h3 {
+    margin: 0 0 0.5rem 0;
+    color: #333;
+}
+
+.event-time, .event-location {
+    color: #666;
+    font-size: 0.9rem;
+    margin: 0.25rem 0;
+}
+
+.event-description {
+    margin: 1rem 0;
+    color: #444;
+    line-height: 1.5;
+}
+
+.register-btn {
+    display: inline-block;
+    background: #4a90e2;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.2s ease;
+}
+
+.register-btn:hover {
+    background: #357abd;
+} 
